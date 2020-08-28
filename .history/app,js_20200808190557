@@ -1,0 +1,9 @@
+"use strict";
+
+class app() {
+    constructor() {
+        this.screen = document.quer
+    }
+}
+
+new app();

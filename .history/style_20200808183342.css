@@ -1,0 +1,39 @@
+body {
+    background: black;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator > div {
+    display: flex;
+}
+
+.calculator > div > div {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.calculator > div > .cero {
+    width: 10vh
+}
+
+.special {
+    background-color: rgb(221, 221, 221)
+}
+
+.numbers {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.operator {
+    background: #ffa800;
+    color: white;
+}

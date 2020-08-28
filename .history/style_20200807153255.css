@@ -1,0 +1,17 @@
+body {
+    background: black;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator > div {
+    display: flex;
+}
+
+.calculator > div > div {
+    width: 1vh;
+    height: 1vh;
+}

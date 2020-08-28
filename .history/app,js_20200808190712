@@ -1,0 +1,15 @@
+"use strict";
+
+class app() {
+    constructor() {
+        this.screen = document.getElementById("screen");
+        this.updateScreen();
+        this.add
+    }
+
+    updateScreen() {
+
+    }
+}
+
+new app();

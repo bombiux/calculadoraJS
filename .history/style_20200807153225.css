@@ -1,0 +1,12 @@
+body {
+    background: black;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator > div {
+    
+}

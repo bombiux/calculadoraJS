@@ -1,0 +1,19 @@
+"use strict";
+
+class app() {
+    constructor() {
+        this.screen = document.getElementById("screen");
+        this.updateScreen();
+        this.addEventListeners();
+    }
+
+    addEventListeners() {
+        document.addEventListener("click")
+    }
+
+    updateScreen() {
+
+    }
+}
+
+new app();

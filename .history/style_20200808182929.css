@@ -1,0 +1,30 @@
+body {
+    background: black;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator > div {
+    display: flex;
+}
+
+.calculator > div > div {
+    width: 5vh;
+    height: 5vh;
+}
+
+.calculator > div > .cero {
+    width: 10vh
+}
+
+.special {
+    background-color: rgb(221, 221, 221)
+}
+
+.numbers {
+    background-color: rgb(37, 37, 37)
+    color: white;
+}
